@@ -1,0 +1,12 @@
+cropped/*
+raw*
+resized*
+idol_models
+saved_models*
+model*
+dist/*
+train/*
+__pycache__
+tflite*
+lbpca*
+bulk_resize

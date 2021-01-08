@@ -18,15 +18,19 @@
 ### 사용 방법
 
 * 까만 화면에서 잠시 대기한다
+
 ![까만 화면에서 잠시 대기한다](https://github.com/dehehe-mirai/idol_classifier/blob/main/images/0.PNG?raw=true)
 
 * 분류할 이미지들이 있는 폴더를 선택한다.
+
 ![분류할 이미지들이 있는 폴더를 선택한다.](https://github.com/dehehe-mirai/idol_classifier/blob/main/images/1.PNG?raw=true)
 
 * 분류할 이미지들이 복사될 폴더를 선택한다.
+
 ![분류할 이미지들이 복사될 폴더를 선택한다.](https://github.com/dehehe-mirai/idol_classifier/blob/main/images/2.PNG?raw=true)
 
 * 기다린다.
+
 ![기다린.](https://github.com/dehehe-mirai/idol_classifier/blob/main/images/3.PNG?raw=true)
 
 ### 알려진 문제점

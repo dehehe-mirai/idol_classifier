@@ -2,9 +2,15 @@
 
 `IDOLM@STER Million Live!` 아이돌 사진 분류기
 
+### 주의사항
+
+* 이미지는 전부 복사됩니다. 충분한 저장 공간이 있는지 확인하세요.
+
+* CPU 많이 먹습니다.
+
 ### 다운로드
 
-[Download]()
+[Download](https://github.com/dehehe-mirai/idol_classifier/releases/download/1.0/dist_cpu.zip)
 또는 화면 우측의 `Release`에서 확인한다.
 
 ### 사용 방법
@@ -77,11 +83,33 @@ python predict.py
 `pyinstaller`를 이용해 다음 명령어를 입력한다.
 
 ```
+pyinstaller -F --add-data "./Lib/site-packages/mxnet/*.dll;./mxnet" .\predict.py
 ```
 
 이후 생성된 `exe` 파일을 포함한 폴더에 얼굴 감지기 관련 폴더, `model` 폴더를 복사한 뒤  배포한다.
 
-### 참조한 Repository
+### GPU 빌드 방법
 
+얼굴 분류 시 CUDA 가속을 사용하려면, 
+
+```
+pip install mxnet-cu90
+```
+을 입력하고,
+
+`core/detector/detector.py`의 다음 줄을
+```
+import mxnet as mx
+```
+
+다음과 같이 수정한다.
+
+```
+import mxnet-cu90 as mx
+```
+
+### 참조한 Repository 및 문서
+
+[](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub?hl=ko)
 [](https://github.com/freedomofkeima/transfer-learning-anime)
 [](https://github.com/cheese-roll/light-anime-face-detector)

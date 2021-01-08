@@ -8,6 +8,8 @@
 
 * CPU 많이 먹습니다.
 
+* GIF 아직 지원 안함
+
 ### 다운로드
 
 [Download](https://github.com/dehehe-mirai/idol_classifier/releases/download/1.0/dist_cpu.zip)

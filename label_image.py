@@ -108,15 +108,15 @@ if __name__ == "__main__":
                 for image in faces:
                     result = inference(image)
                     predicted.append(result)
-                    if n < 100:
-                        plt.subplot(10,10,n+1)
-                        plt.imshow(image)
-                        plt.title(result)
-                        plt.axis('off')
-                        n += 1
+                    # if n < 100:
+                    #     plt.subplot(10,10,n+1)
+                    #     plt.imshow(image)
+                    #     plt.title(result)
+                    #     plt.axis('off')
+                    #     n += 1
                 if answer in predicted:
                     i += 1
-            plt.show()
+            # plt.show()
             print(f"{label}: n: {n}, i: {i}, rate: {i/len(dir)}")
     else:
         path = "raw-fhd/Sayoko/1335764.png"

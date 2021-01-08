@@ -1,6 +1,5 @@
 import cv2
 import bulk_convert
-import bulk_resize
 import os
 import numpy as np
 import sys
@@ -9,6 +8,7 @@ from glob import glob
 import tkinter as tk
 from tkinter import Tk, filedialog, messagebox, ttk
 import label_image
+import random
 
 root = Tk()
 root.title("Million live Idol Cl@ssifier")
@@ -50,6 +50,7 @@ def predict(filepath, dst="classified", move=False):
                 print("얼굴이 발견되지 않음!")
             for image in images:
                 label = label_image.inference(image)
+                cv2.imshow(label, image)
                 if move:
                     target_path = os.path.join(dst, label)
                     if not os.path.exists(target_path):

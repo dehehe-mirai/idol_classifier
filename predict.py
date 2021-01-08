@@ -30,7 +30,7 @@ def predict(filepath, dst="classified", move=False):
     root.pack_slaves()
 
     for file in origs:
-        if extension = os.path.splitext(file)[1] not in ["png", "jpg", "jfif"]:
+        if extension = os.path.splitext(file)[1] not in [".png", ".jpg", ".jfif"]:
             continue
         file_text.set(file)
         newname = os.path.join(os.path.dirname(file),str(random.randint(1, 10000000)) + ".png")

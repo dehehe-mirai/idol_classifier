@@ -122,6 +122,6 @@ import mxnet-cu90 as mx
 
 ### 참조한 Repository 및 문서
 
-[](https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub?hl=ko)
-[](https://github.com/freedomofkeima/transfer-learning-anime)
-[](https://github.com/cheese-roll/light-anime-face-detector)
+(https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub?hl=ko)
+(https://github.com/freedomofkeima/transfer-learning-anime)
+(https://github.com/cheese-roll/light-anime-face-detector)

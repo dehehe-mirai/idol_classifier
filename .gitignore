@@ -9,4 +9,7 @@ train/*
 __pycache__
 tflite*
 lbpca*
-bulk_resize
+bulk_resize.py
+After.txt
+before.txt
+detect.py

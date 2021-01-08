@@ -149,8 +149,8 @@ def main():
     #     sys.stderr.write("usage: bulk_convert.py <source-dir> <target-dir>\n")
     #     sys.exit(0)
     #bulk_convert(sys.argv[1], sys.argv[2])
-    for dir in os.listdir("./raw-fhd"):
-        bulk_convert_ldetector(os.path.join("raw-fhd",dir), os.path.join("cropped-fhd-ld",dir))
+    for dir in os.listdir("./raw"):
+        bulk_convert_ldetector(os.path.join("raw",dir), os.path.join("cropped",dir))
     if len(total) != 0:
         print(f"Average rate: {sum(total)/len(total)}")
 

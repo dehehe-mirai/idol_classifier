@@ -12,7 +12,10 @@
 
 ### 다운로드
 
+[Google Drive](https://drive.google.com/file/d/1h9lOUG2jRgRvqDwN5-fZfP_3G7AdcTTB/view?usp=sharing)
+
 [Download](https://github.com/dehehe-mirai/idol_classifier/releases/download/1.0/dist_cpu.zip)
+
 또는 화면 우측의 `Release`에서 확인한다.
 
 ### 사용 방법

@@ -7,7 +7,5 @@ pip install tflite_runtime-2.5.0-cp37-cp37m-win_amd64.whl
 deactivate
 
 pip install pyinstaller
-pyinstaller predict.py --onefile
-
-upx-3.96-win64\upx.exe -9 dist\label_image.exe
+pyinstaller -F --add-data "./Lib/site-packages/mxnet/*.dll;./mxnet" .\predict.py
 upx-3.96-win64\upx.exe -9 dist\predict.exe
